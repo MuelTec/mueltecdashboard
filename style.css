@@ -277,6 +277,10 @@ body.dark .switch::before {
     width: calc(100% - 250px);
     background: var(--boddy-color);
     transition: var(--tran-05);
+
+    background-image: url(assets/img/logo/logo-background.jpeg);
+    background-size: cover;
+    background-position: center center;
 }
 
 .home .text {
@@ -290,3 +294,4 @@ body.dark .switch::before {
     left: 88px;
     width: calc(100% - 88px);
 }
+
