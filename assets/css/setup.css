@@ -370,5 +370,9 @@ body.dark .switch::before {
     .child {
         display:block;
     }
+    .card {
+        margin: 30px;
+
+    }
 
 }
