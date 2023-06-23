@@ -6,10 +6,15 @@ function exibirPecasNaTela(pecas) {
         let disponibilidade = peca.quantidade > 0 ? 'livro__imagens' : 'livro__imagens indisponivel' 
         elementoParaInserirPecas.innerHTML += `
         <div class="card">
-                <img src="assets/img/produtos/ryzen.webp" alt="">
+                <img class"${disponibilidade}" src="assets/img/produtos/ryzen.webp" alt="">
                 <div class="description">
-                    <h2>Ryzen 5 5600</h2>
-                    <p>6 Core 12 Threads </p>
+                    <h2 class"peca-titulo"></h2>
+                        ${peca.nome}
+                    <p>6 Core 12 Threads ${peca.fabricante}</p>
+                    <p class="livro__preco" id="preco">R$${peca.preco.toFixed(2)}</p>
+                    <div class="tags">
+                      <span class="tag">${peca.categoria}</span>
+                    </div>
                 </div>
         </div>
         `

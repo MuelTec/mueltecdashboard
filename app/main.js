@@ -6,7 +6,7 @@ let pecas = [
       "fabricante": "Nvidia",
       "quantidade": 10,
       "preco": 1000,
-      "categoria": "processador",
+      "categoria": "Placa de Video",
       "imagem":"https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/02-nvidia-logo-color-grn-500x200-4c25-p@2x.png"
       
     },
@@ -25,7 +25,7 @@ let pecas = [
         "fabricante": "Nvidia",
         "quantidade": 10,
         "preco": 1000,
-        "categoria": "processador",
+        "categoria": "Placa de video",
         "imagem":"https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/02-nvidia-logo-color-grn-500x200-4c25-p@2x.png"
         
       },
@@ -44,7 +44,7 @@ let pecas = [
         "fabricante": "Nvidia",
         "quantidade": 10,
         "preco": 1000,
-        "categoria": "processador",
+        "categoria": "Placa de Video",
         "imagem":"https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/02-nvidia-logo-color-grn-500x200-4c25-p@2x.png"
         
       },
@@ -63,7 +63,7 @@ let pecas = [
         "fabricante": "Nvidia",
         "quantidade": 10,
         "preco": 1000,
-        "categoria": "processador",
+        "categoria": "Placa de Video",
         "imagem":"https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/02-nvidia-logo-color-grn-500x200-4c25-p@2x.png"
         
       },
